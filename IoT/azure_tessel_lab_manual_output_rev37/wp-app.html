@@ -1,0 +1,250 @@
+<html><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"><script type="text/x-mathjax-config;executed=true">MathJax.Hub.Config({tex2jax: {inlineMath: [ ['$','$'], ['\\(','\\)'] ],processEscapes:true}});</script><script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script><script type="text/javascript" src="chrome-extension://febilkbfcbhebfnokafefeacimjdckgl/js/runMathJax.js"></script><link rel="stylesheet" id="theme" href="chrome-extension://febilkbfcbhebfnokafefeacimjdckgl/theme/Github.css"><style type="text/css">.MathJax_Hover_Frame {border-radius: .25em; -webkit-border-radius: .25em; -moz-border-radius: .25em; -khtml-border-radius: .25em; box-shadow: 0px 0px 15px #83A; -webkit-box-shadow: 0px 0px 15px #83A; -moz-box-shadow: 0px 0px 15px #83A; -khtml-box-shadow: 0px 0px 15px #83A; border: 1px solid #A6D ! important; display: inline-block; position: absolute}
+.MathJax_Hover_Arrow {position: absolute; width: 15px; height: 11px; cursor: pointer}
+</style><style type="text/css">#MathJax_About {position: fixed; left: 50%; width: auto; text-align: center; border: 3px outset; padding: 1em 2em; background-color: #DDDDDD; color: black; cursor: default; font-family: message-box; font-size: 120%; font-style: normal; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; border-radius: 15px; -webkit-border-radius: 15px; -moz-border-radius: 15px; -khtml-border-radius: 15px; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+.MathJax_Menu {position: absolute; background-color: white; color: black; width: auto; padding: 2px; border: 1px solid #CCCCCC; margin: 0; cursor: default; font: menu; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+.MathJax_MenuItem {padding: 2px 2em; background: transparent}
+.MathJax_MenuArrow {position: absolute; right: .5em; color: #666666}
+.MathJax_MenuActive .MathJax_MenuArrow {color: white}
+.MathJax_MenuArrow.RTL {left: .5em; right: auto}
+.MathJax_MenuCheck {position: absolute; left: .7em}
+.MathJax_MenuCheck.RTL {right: .7em; left: auto}
+.MathJax_MenuRadioCheck {position: absolute; left: 1em}
+.MathJax_MenuRadioCheck.RTL {right: 1em; left: auto}
+.MathJax_MenuLabel {padding: 2px 2em 4px 1.33em; font-style: italic}
+.MathJax_MenuRule {border-top: 1px solid #CCCCCC; margin: 4px 1px 0px}
+.MathJax_MenuDisabled {color: GrayText}
+.MathJax_MenuActive {background-color: Highlight; color: HighlightText}
+.MathJax_Menu_Close {position: absolute; width: 31px; height: 31px; top: -15px; left: -15px}
+</style><style type="text/css">.MathJax_Preview .MJXc-math {color: inherit!important}
+</style><style type="text/css">#MathJax_Zoom {position: absolute; background-color: #F0F0F0; overflow: auto; display: block; z-index: 301; padding: .5em; border: 1px solid black; margin: 0; font-weight: normal; font-style: normal; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; box-shadow: 5px 5px 15px #AAAAAA; -webkit-box-shadow: 5px 5px 15px #AAAAAA; -moz-box-shadow: 5px 5px 15px #AAAAAA; -khtml-box-shadow: 5px 5px 15px #AAAAAA; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_ZoomOverlay {position: absolute; left: 0; top: 0; z-index: 300; display: inline-block; width: 100%; height: 100%; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+#MathJax_ZoomFrame {position: relative; display: inline-block; height: 0; width: 0}
+#MathJax_ZoomEventTrap {position: absolute; left: 0; top: 0; z-index: 302; display: inline-block; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+</style><style type="text/css">.MathJax_Preview {color: #888}
+#MathJax_Message {position: fixed; left: 1em; bottom: 1.5em; background-color: #E6E6E6; border: 1px solid #959595; margin: 0px; padding: 2px 8px; z-index: 102; color: black; font-size: 80%; width: auto; white-space: nowrap}
+#MathJax_MSIE_Frame {position: absolute; top: 0; left: 0; width: 0px; z-index: 101; border: 0px; margin: 0px; padding: 0px}
+.MathJax_Error {color: #CC0000; font-style: italic}
+</style><style type="text/css">.MJXc-script {font-size: .8em}
+.MJXc-right {-webkit-transform-origin: right; -moz-transform-origin: right; -ms-transform-origin: right; -o-transform-origin: right; transform-origin: right}
+.MJXc-bold {font-weight: bold}
+.MJXc-italic {font-style: italic}
+.MJXc-scr {font-family: MathJax_Script,'Times New Roman',Times,STIXGeneral,serif}
+.MJXc-frak {font-family: MathJax_Fraktur,'Times New Roman',Times,STIXGeneral,serif}
+.MJXc-sf {font-family: MathJax_SansSerif,'Times New Roman',Times,STIXGeneral,serif}
+.MJXc-cal {font-family: MathJax_Caligraphic,'Times New Roman',Times,STIXGeneral,serif}
+.MJXc-mono {font-family: MathJax_Typewriter,'Times New Roman',Times,STIXGeneral,serif}
+.MJXc-largeop {font-size: 150%}
+.MJXc-largeop.MJXc-int {vertical-align: -.2em}
+.MJXc-math {display: inline-block; line-height: 1.2; text-indent: 0; font-family: 'Times New Roman',Times,STIXGeneral,serif; white-space: nowrap; border-collapse: collapse}
+.MJXc-display {display: block; text-align: center; margin: 1em 0}
+.MJXc-math span {display: inline-block}
+.MJXc-box {display: block!important; text-align: center}
+.MJXc-box:after {content: " "}
+.MJXc-rule {display: block!important; margin-top: .1em}
+.MJXc-char {display: block!important}
+.MJXc-mo {margin: 0 .15em}
+.MJXc-mfrac {margin: 0 .125em; vertical-align: .25em}
+.MJXc-denom {display: inline-table!important; width: 100%}
+.MJXc-denom > * {display: table-row!important}
+.MJXc-surd {vertical-align: top}
+.MJXc-surd > * {display: block!important}
+.MJXc-script-box > *  {display: table!important; height: 50%}
+.MJXc-script-box > * > * {display: table-cell!important; vertical-align: top}
+.MJXc-script-box > *:last-child > * {vertical-align: bottom}
+.MJXc-script-box > * > * > * {display: block!important}
+.MJXc-mphantom {visibility: hidden}
+.MJXc-munderover {display: inline-table!important}
+.MJXc-over {display: inline-block!important; text-align: center}
+.MJXc-over > * {display: block!important}
+.MJXc-munderover > * {display: table-row!important}
+.MJXc-mtable {vertical-align: .25em; margin: 0 .125em}
+.MJXc-mtable > * {display: inline-table!important; vertical-align: middle}
+.MJXc-mtr {display: table-row!important}
+.MJXc-mtd {display: table-cell!important; text-align: center; padding: .5em 0 0 .5em}
+.MJXc-mtr > .MJXc-mtd:first-child {padding-left: 0}
+.MJXc-mtr:first-child > .MJXc-mtd {padding-top: 0}
+.MJXc-mlabeledtr {display: table-row!important}
+.MJXc-mlabeledtr > .MJXc-mtd:first-child {padding-left: 0}
+.MJXc-mlabeledtr:first-child > .MJXc-mtd {padding-top: 0}
+.MJXc-merror {background-color: #FFFF88; color: #CC0000; border: 1px solid #CC0000; padding: 1px 3px; font-style: normal; font-size: 90%}
+.MJXc-scale0 {-webkit-transform: scaleX(.0); -moz-transform: scaleX(.0); -ms-transform: scaleX(.0); -o-transform: scaleX(.0); transform: scaleX(.0)}
+.MJXc-scale1 {-webkit-transform: scaleX(.1); -moz-transform: scaleX(.1); -ms-transform: scaleX(.1); -o-transform: scaleX(.1); transform: scaleX(.1)}
+.MJXc-scale2 {-webkit-transform: scaleX(.2); -moz-transform: scaleX(.2); -ms-transform: scaleX(.2); -o-transform: scaleX(.2); transform: scaleX(.2)}
+.MJXc-scale3 {-webkit-transform: scaleX(.3); -moz-transform: scaleX(.3); -ms-transform: scaleX(.3); -o-transform: scaleX(.3); transform: scaleX(.3)}
+.MJXc-scale4 {-webkit-transform: scaleX(.4); -moz-transform: scaleX(.4); -ms-transform: scaleX(.4); -o-transform: scaleX(.4); transform: scaleX(.4)}
+.MJXc-scale5 {-webkit-transform: scaleX(.5); -moz-transform: scaleX(.5); -ms-transform: scaleX(.5); -o-transform: scaleX(.5); transform: scaleX(.5)}
+.MJXc-scale6 {-webkit-transform: scaleX(.6); -moz-transform: scaleX(.6); -ms-transform: scaleX(.6); -o-transform: scaleX(.6); transform: scaleX(.6)}
+.MJXc-scale7 {-webkit-transform: scaleX(.7); -moz-transform: scaleX(.7); -ms-transform: scaleX(.7); -o-transform: scaleX(.7); transform: scaleX(.7)}
+.MJXc-scale8 {-webkit-transform: scaleX(.8); -moz-transform: scaleX(.8); -ms-transform: scaleX(.8); -o-transform: scaleX(.8); transform: scaleX(.8)}
+.MJXc-scale9 {-webkit-transform: scaleX(.9); -moz-transform: scaleX(.9); -ms-transform: scaleX(.9); -o-transform: scaleX(.9); transform: scaleX(.9)}
+.MathJax_CHTML .noError {vertical-align: ; font-size: 90%; text-align: left; color: black; padding: 1px 3px; border: 1px solid}
+</style><script type="text/javascript" src="chrome-extension://febilkbfcbhebfnokafefeacimjdckgl/js/runMathJax.js"></script></head><body><h1 id="-windows-phone">Мобильное приложение для Windows Phone</h1>
+<hr>
+<p>В данной работе мы напишем мобильное приложение, которое обеспечит полноценное взаимодействие с Tessel через мобильную службу Azure.</p>
+<p>Вместо создания приложения с нуля мы используем готовое, предоставляемое как образец на портале управления Azure.</p>
+<p>Для выполнения работы вам понадобится Visual Studio 2013 Update 4 с эмуляторами Windows Phone 8.1 или реальное устройство. Работа эмулятора Windows Phone 8.1 возможна только в Windows 8.1.</p>
+<h2 id="-">Создание пустого приложения</h2>
+<ol>
+<li><p>Запустите Visual Studio 2013 Update 4 и выберите из меню <strong>File</strong> - <strong>New</strong> - <strong>Project</strong>.</p>
+</li>
+<li><p>В появившемся окне выберите тип проекта <strong>Windows Phone Apps</strong> - <strong>Blank App</strong>, задайте имя и размещение проекта:</p>
+<p align="center"><img src="images\wp_project_type.jpg" width="90%/"></p>
+</li>
+<li><p>Выберите в меню <strong>Build</strong> - <strong>Build Solution</strong> и убедитесь, что приложение было собрано. Запустите его на эмуляторе, выбрав нужный эмулятор из выпадающего списка и повторно кликнув на нем:
+</p><p align="center"><img src="images\emulator.jpg" width="90%/"></p><p></p>
+<blockquote>
+<p>Запуск эмулятора и развертывание приложения могут занять длительное время.</p>
+</blockquote>
+</li>
+<li><p>Не завершайте эмулятор, позднее мы будем использовать его повторно. Вернитесь к окну Visual Studio и выберите <strong>Debug</strong> - <strong>Stop Debugging</strong>.</p>
+</li>
+</ol>
+<h2 id="-azure">Подключение приложения к мобильной службе Azure</h2>
+<ol>
+<li><p>Кликните на названии проекта (а не Solution) правой кнопкой и выберите команду <strong>Manage NuGet Packages</strong>. В строке поиска справа вверху появившегося окна наберите <strong>MobileServices</strong> и нажмите <strong>Enter</strong>. По завершению поиска в списке пакетов найдите <strong>Windows Azure Mobile Services</strong> и нажмите кнопку <strong>Install</strong>. Вам будет предложено разрешить зависимости и принять условия лицензионных соглашений - согласитесь. По завершению процесса закройте окно.</p>
+</li>
+<li><p>Откройте файл <strong>App.xaml.cs</strong> и в конец списка директив using добавьте:</p>
+<pre><code><span class="title">using</span> Microsoft.WindowsAzure.MobileServices;
+</code></pre></li>
+<li><p>Проделайте аналогично в файле <strong>MainPage.xaml.cs</strong> добавьте:</p>
+<pre><code><span class="title">using</span> Microsoft.WindowsAzure.MobileServices;
+<span class="title">using</span> Windows.UI.Popups;
+<span class="title">using</span> Newtonsoft.Json.Linq;
+</code></pre></li>
+<li><p>В определение класса <strong>App</strong> (сразу после открывающей фигурной скобки) добавьте:</p>
+<pre><code>public static MobileServiceClient MobileService = new MobileServiceClient(
+ "https://<span class="tag">&lt;<span class="title">имя</span> вашей мобильной службы&gt;</span>.azure-mobile.net/",
+ "<span class="tag">&lt;<span class="title">ключ</span> приложения&gt;</span>"
+);
+</code></pre><p>Замените <code>&lt;имя вашей мобильной службы&gt;</code> на соответствующее вашему случаю.</p>
+</li>
+<li><p>Аналогично в файле <strong>MainPage.xaml.cs</strong> добавьте в определение класса MainPage строку:</p>
+<pre><code>private string TesselId = "<span class="tag">&lt;<span class="title">ваш</span> <span class="attribute">Tessel</span> <span class="attribute">ID</span>&gt;</span>";
+</code></pre><p>и замените <code>&lt;ваш Tessel ID&gt;</code> на уникальный идентификатор платы Tesselю</p>
+</li>
+<li><p>Войдите на портал управления Azure и перейдите к созданной вами ранее мобильной службе.</p>
+</li>
+<li><p>Перейдите на стартовую страницу мобильной службы, обозначенную значком <img src="images\cloud.jpg">.</p>
+</li>
+<li><p>Внизу страницы выберите <strong>Управление ключами</strong>.</p>
+</li>
+<li><p>Скопируйте ключ приложения и вставьте его вместо <code>&lt;ключ приложения&gt;</code>.</p>
+</li>
+<li><p>Найдите код</p>
+<pre><code>namespace <span class="tag">&lt;<span class="title">имя</span> проекта&gt;</span>
+{
+</code></pre><p>и после открывающей фигурной скобки вставьте код, отвечающий элементу таблицы (обратите внимание, что элементы <strong>t</strong> и <strong>rh</strong> имеют тип, отличающийся от указанного в таблице, но это не вызовет конфликта):</p>
+<pre><code><span class="keyword">public</span> <span class="keyword">class</span> dev_data
+{
+<span class="keyword">public</span> <span class="built_in">string</span> id { get; <span class="built_in">set</span>; }
+<span class="keyword">public</span> <span class="built_in">string</span> deviceid { get; <span class="built_in">set</span>; }
+<span class="keyword">public</span> <span class="built_in">string</span> userid { get; <span class="built_in">set</span>; }
+<span class="keyword">public</span> <span class="built_in">string</span> t { get; <span class="built_in">set</span>; }
+<span class="keyword">public</span> <span class="built_in">string</span> rh { get; <span class="built_in">set</span>; }
+<span class="keyword">public</span> <span class="keyword">int</span> led0 { get; <span class="built_in">set</span>; }
+<span class="keyword">public</span> <span class="keyword">int</span> led1 { get; <span class="built_in">set</span>; }
+}
+</code></pre></li>
+<li><p>Перейдите к редактированию дизайна, выбрав <strong>MainPage.xaml</strong>.</p>
+<blockquote>
+<p>Вы можете переключаться между кодом и дизайном, нажимая <strong>F7</strong> и <strong>Shift + F7</strong>.</p>
+</blockquote>
+</li>
+<li><p>Найдите элемент</p>
+<pre><code><span class="tag">&lt;<span class="title">Grid</span>&gt;</span>
+<span class="tag">&lt;/<span class="title">Grid</span>&gt;</span>
+</code></pre><p>В его тело (между элементов) вставьте код, приведенный ниже:</p>
+<pre><code><span class="tag">&lt;<span class="title">TextBlock</span> <span class="attribute">FontSize</span>=<span class="value">"36"</span> <span class="attribute">Margin</span>=<span class="value">"5,0,0,0"</span> <span class="attribute">Text</span>=<span class="value">"Tessel Azure Test"</span>/&gt;</span>
+<span class="tag">&lt;<span class="title">TextBlock</span> <span class="attribute">HorizontalAlignment</span>=<span class="value">"Left"</span> <span class="attribute">VerticalAlignment</span>=<span class="value">"Top"</span> <span class="attribute">Margin</span>=<span class="value">"40,70,0,0"</span> <span class="attribute">TextWrapping</span>=<span class="value">"Wrap"</span> <span class="attribute">Text</span>=<span class="value">"t (C):"</span> <span class="attribute">Height</span>=<span class="value">"25"</span> <span class="attribute">Width</span>=<span class="value">"120"</span> <span class="attribute">FontSize</span>=<span class="value">"20"</span>/&gt;</span>
+<span class="tag">&lt;<span class="title">TextBlock</span> <span class="attribute">HorizontalAlignment</span>=<span class="value">"Left"</span> <span class="attribute">VerticalAlignment</span>=<span class="value">"Top"</span> <span class="attribute">Margin</span>=<span class="value">"40,100,0,0"</span> <span class="attribute">TextWrapping</span>=<span class="value">"Wrap"</span> <span class="attribute">Text</span>=<span class="value">"RH (%):"</span> <span class="attribute">Height</span>=<span class="value">"25"</span> <span class="attribute">Width</span>=<span class="value">"120"</span> <span class="attribute">FontSize</span>=<span class="value">"20"</span>/&gt;</span>
+<span class="tag">&lt;<span class="title">TextBlock</span> <span class="attribute">Name</span>=<span class="value">"t_value"</span> <span class="attribute">HorizontalAlignment</span>=<span class="value">"Left"</span> <span class="attribute">VerticalAlignment</span>=<span class="value">"Top"</span> <span class="attribute">Margin</span>=<span class="value">"200,70,0,0"</span> <span class="attribute">TextWrapping</span>=<span class="value">"Wrap"</span> <span class="attribute">Text</span>=<span class="value">"NA"</span> <span class="attribute">Height</span>=<span class="value">"25"</span> <span class="attribute">Width</span>=<span class="value">"120"</span> <span class="attribute">FontSize</span>=<span class="value">"20"</span>/&gt;</span>
+<span class="tag">&lt;<span class="title">TextBlock</span> <span class="attribute">Name</span>=<span class="value">"rh_value"</span> <span class="attribute">HorizontalAlignment</span>=<span class="value">"Left"</span> <span class="attribute">VerticalAlignment</span>=<span class="value">"Top"</span> <span class="attribute">Margin</span>=<span class="value">"200,100,0,0"</span> <span class="attribute">TextWrapping</span>=<span class="value">"Wrap"</span> <span class="attribute">Text</span>=<span class="value">"NA"</span> <span class="attribute">Height</span>=<span class="value">"25"</span> <span class="attribute">Width</span>=<span class="value">"120"</span> <span class="attribute">FontSize</span>=<span class="value">"20"</span>/&gt;</span>
+<span class="tag">&lt;<span class="title">ToggleSwitch</span> <span class="attribute">Header</span>=<span class="value">"led 0"</span> <span class="attribute">Name</span>=<span class="value">"led0_value"</span> <span class="attribute">HorizontalAlignment</span>=<span class="value">"Left"</span> <span class="attribute">Margin</span>=<span class="value">"40,149,0,0"</span> <span class="attribute">VerticalAlignment</span>=<span class="value">"Top"</span> <span class="attribute">Width</span>=<span class="value">"180"</span> <span class="attribute">FontSize</span>=<span class="value">"20"</span> <span class="attribute">Height</span>=<span class="value">"70"</span>/&gt;</span>
+<span class="tag">&lt;<span class="title">ToggleSwitch</span> <span class="attribute">Header</span>=<span class="value">"led 1"</span> <span class="attribute">Name</span>=<span class="value">"led1_value"</span> <span class="attribute">HorizontalAlignment</span>=<span class="value">"Left"</span> <span class="attribute">Margin</span>=<span class="value">"40,221,0,0"</span> <span class="attribute">VerticalAlignment</span>=<span class="value">"Top"</span> <span class="attribute">Width</span>=<span class="value">"180"</span> <span class="attribute">FontSize</span>=<span class="value">"20"</span> <span class="attribute">Height</span>=<span class="value">"70"</span>/&gt;</span>
+<span class="tag">&lt;<span class="title">Button</span> <span class="attribute">Name</span>=<span class="value">"Refresh"</span> <span class="attribute">Content</span>=<span class="value">"Refresh"</span> <span class="attribute">HorizontalAlignment</span>=<span class="value">"Left"</span> <span class="attribute">Margin</span>=<span class="value">"40,310,0,0"</span> <span class="attribute">VerticalAlignment</span>=<span class="value">"Top"</span> <span class="attribute">Width</span>=<span class="value">"208"</span>/&gt;</span>
+</code></pre><p>В окне дизайна появится соответствующий дизайн (см. рисунок ниже). Ознакомьтесь с ним. Обратите внимание: для упрощения мы не использовали никаких методов выравнивания и адаптации интерфейса к размеру экрана.</p>
+<p align="center"><img src="images\design.jpg"></p>
+</li>
+<li><p>В окне дизайна дважды кликните на кнопке с надписью <strong>Refresh</strong>. Будет создан обработчик события <strong>OnClick</strong> и вы попадете в соответствующий учаток кода. Здесь нам необходимо произвести обмен данными с таблицей мобильной службы: сначала прочитать значения температуры и влажности, затем записать в таблицу значения для светодиодов (допустимые значения 0 или 1). Эти действия мы будем выполнять с помощью библиотеки клиента мобильных служб.</p>
+<blockquote>
+<p>Код на Tessel автоматически производит аналогичный обмен (но в противоположном направлении) каждые 30 секунд (см. код api-client.js).</p>
+</blockquote>
+</li>
+<li><p>Вставьте в обработчик события следующий код:</p>
+<pre><code>        MobileServiceCollection&lt;dev_data, dev_data&gt; items = await App.MobileService.GetTable&lt;dev_data&gt;()
+            .Where(dev_item =&gt; dev_item.deviceid == TesselId)
+            .ToCollectionAsync();
+        <span class="keyword">switch</span> (items.Count)
+        {
+            <span class="keyword">case</span> <span class="number">0</span>:
+                await <span class="keyword">new</span> MessageDialog(<span class="string">"No data for the device ID"</span>, <span class="string">"Warning"</span>).ShowAsync();
+                <span class="keyword">break</span>;
+            <span class="keyword">case</span> <span class="number">1</span>:
+                <span class="comment">// data from cloud to app</span>
+                t_value.Text = items[<span class="number">0</span>].t;
+                rh_value.Text = items[<span class="number">0</span>].rh;
+                <span class="comment">// data from app to cloud - update only leds state</span>
+                JObject jo = <span class="keyword">new</span> JObject();
+                jo.Add(<span class="string">"id"</span>, items[<span class="number">0</span>].id);
+                jo.Add(<span class="string">"led0"</span>, led0_value.IsOn ? <span class="number">0</span> : <span class="number">1</span>);
+                jo.Add(<span class="string">"led1"</span>, led1_value.IsOn ? <span class="number">0</span> : <span class="number">1</span>);
+                await App.MobileService.GetTable&lt;dev_data&gt;().UpdateAsync(jo);
+                <span class="keyword">break</span>;
+            <span class="keyword">default</span>:
+                await <span class="keyword">new</span> MessageDialog(<span class="string">"Multiple devices not implemented yet"</span>, <span class="string">"Warning"</span>).ShowAsync();
+                <span class="keyword">break</span>;
+        }
+</code></pre></li>
+<li><p>Измените заголовок метода</p>
+<pre><code><span class="title">private</span> void Refresh_Click(object sender, RoutedEventArgs e)
+</code></pre><p>на</p>
+<pre><code><span class="title">private</span> async void Refresh_Click(object sender, RoutedEventArgs e)
+</code></pre></li>
+<li><p>Выберите <strong>Build</strong> - <strong>Build Solution</strong> и запустите проект на эмуляторе.</p>
+</li>
+<li><p>Убедитесь, что Tessel все еще работает и осуществляет обмен данными с API.</p>
+</li>
+<li><p>На эмуляторе Windows Phone измените значения одного из элементов <strong>led0</strong> или <strong>led1</strong> и убедитесь, что при нажатии на кнопку <strong>Refresh</strong> происходит обновление данных о температуре и влажности, а Tessel зажигает светодиоды в соответствии с состояними элементов <strong>led0</strong>, <strong>led1</strong>.</p>
+<blockquote>
+<p>Учтите, что поскольку Tessel обменивается с облаком данными раз в 30 секунд, задержка в передаче данных в обе стороны может составлять до 30 секунд.</p>
+</blockquote>
+</li>
+<li><p>Воздействуйте на датчик климатического модуля Tessel и наблюдайте изменения в интерфейсе мобильного приложения, нажимая кнопку <strong>Refresh</strong>. Наблюдайте также изменения в консоли Tessel.</p>
+<blockquote>
+<p>Во избежание повреждения датчика влажности не проливайте на него жидкости и не трогайте его пальцами.</p>
+</blockquote>
+</li>
+</ol>
+<p align="center"><img src="images\app_on_emulator.jpg"></p>
+
+<h2 id="-">Улучшение созданного приложения <em>(для самостоятельного выполнения)</em></h2>
+<p>Рассмотренное приложение является одной из простейших реализаций обмена данными с IoT устройством. Ниже предложены пути его улучшения. Выберите то, что интересно вам и действуйте.</p>
+<ol>
+<li><p>Реализуйте автоматическое обновление данных (без кнопки Refresh).
+<br><em>Подсказка:</em> используйте класс <strong>ThreadPoolTimer</strong>.</p>
+</li>
+<li><p>Реализуйте Data Binding для автоматического обмена данными между элементами интерфейса и таблицей.</p>
+</li>
+<li><p>Добавьте элемент, в котором будет указано, сколько секунд назад был обмен данными с таблицей со стороны Tessel.
+<br><em>Подсказка:</em> в таблице есть автоматически создаваемое поле <strong>__updatedAt</strong> типа <strong>date</strong>, которое поможет вам определить момент последнего обновления записи таблицы.</p>
+</li>
+<li><p>Реализуйте аутентификацию пользователей и подумайте над привязкой устройства к пользователю.
+<br><em>Подсказки:</em></p>
+<ul>
+<li>Используйте аутентификацию при помощи учетной записи Microsoft, если у вас есть учетная запись разработчика Windows Store.</li>
+<li>В таблице уже зарезервирован столбец <strong>userid</strong>, который позволит вам хранить идентификатор пользователя. Сделав выборку по идентификатору, из столбца <strong>deviceid</strong> можно будет получить все устройства, привязанные к данном пользователю, а затем получить данные от них.</li>
+<li>Возможно, в приложении вам понадобится реализовать интерфейс для привязки нового устройства к данному пользователю. Вам придется изменить интерфейс приложения, если вы хотите работать с несколькими устройствами одновременно, так как данный учебный пример был приведен только для одного устройства.</li>
+<li>При реализации аутентификации вам придется отредактировать скрипты (не путать с API) добавления данных в таблицу с целью проверки подлинности пользователя. Подробности вы можете получить, перейдя по ссылке <a href="http://azure.microsoft.com/en-us/documentation/articles/mobile-services-javascript-backend-windows-universal-dotnet-get-started-users/"><strong>Добавление проверки подлинности</strong></a>, которая находится на стартовом экране мобильной службы Microsoft Azure.</li>
+<li>Вы также можете (и должны) установить более жесткие ограничения на доступ к таблице (<strong>Только прошедшие проверку пользователи</strong> для всех операций).</li>
+</ul>
+</li>
+<li><p>Реализуйте универсальное приложение (Universal App), которое сможет также работать на устройствах под управлением Windows 8.1.</p>
+</li>
+<li><p>Подумайте, как можно реализовать Push-уведомления. В чем их польза для подобных решений?</p>
+</li>
+<li><p>Реализуйте возможность автоматического подстраивания интерфейса приложения под различные размеры экранов.</p>
+</li>
+<li><p>Добавьте обработку исключений при работе с таблицей данных.</p>
+</li>
+</ol>
+</body></html>
