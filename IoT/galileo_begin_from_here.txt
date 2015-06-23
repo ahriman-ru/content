@@ -1,0 +1,16 @@
+Прежде чем приступать к работе над лабораторной, внимательно изучите материалы, написанные Intel:
+http://habrahabr.ru/company/intel/blog/248279/
+http://habrahabr.ru/company/intel/blog/248893/
+https://communities.intel.com/thread/46335
+http://10rem.net/blog/2014/08/20/running-a-simple-net-console-app-on-the-intel-galileo-with-windows
+
+Большая часть настроек была совершена за вас, поэтому чтение данных материалов должно носить ознакомительный характер относительно того, что представляет собой Intel Galileo.
+
+Также несколько ознакомительных статей доступна на MSDN-блоге Сергея Байдачного (английский язык):
+http://en.baydachnyy.com/category/iot/
+
+После того, как вы познакомитесь с использованием Galileo, получите IP-адрес от инструктора хакатона и успешно подключитесь по SSH к устройству, переходите к лабораторной работе. После успешного выполнения ЛБ (либо во время, если вы используете несколько плат), переходите к подключению сенсоров.
+
+Лабораторная работа:
+
+https://github.com/rudx/content/blob/master/IoT/iot_masterclass_galileo_connecting_to_event_hub.docx
